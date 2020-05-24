@@ -1,0 +1,11 @@
+.clock
+    .hands
+        .hand
+            &.seconds
+                animation: hand-rotate 60s linear -_SECONDS_s infinite
+
+            &.minutes
+                animation: hand-rotate 3600s linear -_MINUTES_s infinite
+
+            &.hours
+                animation: hand-rotate 43200s linear -_HOURS_s infinite

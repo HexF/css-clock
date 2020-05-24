@@ -1,0 +1,15 @@
+.clock .hands .hand.seconds {
+  -webkit-animation: hand-rotate 60s linear -_SECONDS_s infinite;
+          animation: hand-rotate 60s linear -_SECONDS_s infinite;
+}
+
+.clock .hands .hand.minutes {
+  -webkit-animation: hand-rotate 3600s linear -_MINUTES_s infinite;
+          animation: hand-rotate 3600s linear -_MINUTES_s infinite;
+}
+
+.clock .hands .hand.hours {
+  -webkit-animation: hand-rotate 43200s linear -_HOURS_s infinite;
+          animation: hand-rotate 43200s linear -_HOURS_s infinite;
+}
+/*# sourceMappingURL=clock-animations.css.map */

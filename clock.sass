@@ -1,0 +1,36 @@
+@import url("_NEWURL_")
+
+@keyframes hand-rotate
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
+
+.clock
+    border-radius: 50%
+    border-style: solid
+    border-color: black
+    width: 300px
+    height: 300px
+
+    .hands
+        width: 100%
+        height: 100%
+        position: relative
+        transform: rotate(-90deg)
+        .hand
+            height: 5px
+            background-color: black
+            left: 50%
+            position: absolute
+            top: 50%
+            transform-origin: 0 50%
+
+            &.seconds
+                width: 45%
+
+            &.minutes
+                width: 30%
+
+            &.hours
+                width: 10%

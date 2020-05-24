@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGY,MAHN,CACF,MAAM,CACF,KAAK,AACA,QAAQ,CAAC;EACN,SAAS,EAAE,2CAA2C;CAAG;;AAJzE,AAMY,MANN,CACF,MAAM,CACF,KAAK,AAIA,QAAQ,CAAC;EACN,SAAS,EAAE,6CAA6C;CAAG;;AAP3E,AASY,MATN,CACF,MAAM,CACF,KAAK,AAOA,MAAM,CAAC;EACJ,SAAS,EAAE,4CAA4C;CAAG",
+    "sources": [
+        "clock-animations.sass"
+    ],
+    "names": [],
+    "file": "clock-animations.css"
+}
